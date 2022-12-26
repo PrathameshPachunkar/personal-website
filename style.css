@@ -71,10 +71,21 @@ h1.btn{
     border-width: 4px;
     border-color: #fff;
     z-index: 9;
+    transition: 0.5s;
+    background-color: black;
 }
+/* #div1:hover{
+    transform: scale(1.1) translate(70px,500px);
+    padding-left: 10px;
+    color: aqua;
+    border-radius: 40px;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+} */
+
 #div2{
     display: inline-block;
-    
+    background-color: black;
     /* transform: translateX(500px); */
     transform: translate(300px,600px);
     height: 500px;
@@ -86,7 +97,7 @@ h1.btn{
 }
 #div3{
     display: inline-block;
-   
+   background-color: black;
     /* transform: translateX(500px);  */
     transform: translate(450px,600px);
     height: 500px;
@@ -122,6 +133,7 @@ h1.btn{
     position: relative;
     transform: translateY(55px);
    display: inline-block;
+   background-color: black;
    border-top-left-radius: 45%;
    border-top-right-radius: 45%;
     border: solid;
