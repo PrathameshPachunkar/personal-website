@@ -112,7 +112,7 @@ h1.btn{
     border-top-left-radius: 45%;
     border-top-right-radius: 45%;
     transform: translate(350px,-100px);
-    height: 450px;
+    height: 550px;
     width: 350px;
     border: solid;
     border-color: #fff;
@@ -125,13 +125,61 @@ h1.btn{
    border-top-left-radius: 45%;
    border-top-right-radius: 45%;
     border: solid;
-    height: 350px;
+    height: 450px;
     width: 250px;
     border-width: 4px;
     border-color: #fff;
     z-index: 3;
  }   
  #profilebg{
+    display: inline-block;
     z-index: -1;
-    transform: translate(-200px,-100px);
+    transform: translate(-200px,-250px);
+ }
+ #profile2{
+    display: inline-block;
+    position: relative;
+ }
+ #profileimage{
+    position: relative;
+    display: inline-block;
+ }
+ #who{
+    position: relative;
+    display: inline-block;
+    font-family: 'pirata one';
+    font-size: 70px;
+    padding-left: 0%;
+    overflow: hidden;
+    white-space: nowrap;
+    transform: translate(400px,-900px);
+    color: #fff;
+ }
+ #whoinfo{
+    position: absolute;
+    display: block;
+    transform: translate(400px,-850px);
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+
+ }
+ #getintouch{
+    transform: translate(400px,-570px);
+    padding-top: 10px;
+   text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    border: solid;
+    border-width: 4px;
+    width: 130px;
+    height: 40px;
+    border-color: #fff;
+
+ }
+ #getintouch:hover{
+    background-color: #fff;
+    color: black;
  }
